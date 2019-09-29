@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/19768257/ontologies/2019/8/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/19768257/ontologies/2019/8/untitled-ontology-3">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AcneCover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AddisonsDiseaseCover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdditionalConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsthmaCover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BackAndNeckCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BonComprehensive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChronicBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalCancerTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalOrganTransplants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagedCareBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalAcuteMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalBloodTests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalGPConsultations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acnecare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asthma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boncomp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#testplan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#addison&apos;s"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcneCover"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AddisonsDiseaseCover"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdditionalConditions"/>
+        <Class IRI="#ChronicBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCover"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BackAndNeckCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#Plans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectComplementOf>
+            <Class IRI="#Benefits"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AddisonsDiseaseCover"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AsthmaCover"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <ObjectUnionOf>
+                <Class IRI="#AddisonsDiseaseCover"/>
+                <Class IRI="#AsthmaCover"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChronicBenefits"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalBenefits"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalCancerTreatment"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalOrganTransplants"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagedCareBenefits"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalAcuteMedicine"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalBenefits"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalBloodTests"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalGPConsultations"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+        <Class IRI="#ChronicBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AcneCover"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#BonComprehensive"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AddisonsDiseaseCover"/>
+        <Class IRI="#AsthmaCover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Benefits"/>
+        <Class IRI="#BonComprehensive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Benefits"/>
+        <Class IRI="#Plans"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OutOfHospitalAcuteMedicine"/>
+        <Class IRI="#OutOfHospitalBloodTests"/>
+        <Class IRI="#OutOfHospitalGPConsultations"/>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
+        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
+        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
+        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AcneCover"/>
+        <NamedIndividual IRI="#acnecare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsthmaCover"/>
+        <NamedIndividual IRI="#asthma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BonComprehensive"/>
+        <NamedIndividual IRI="#boncomp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AddisonsDiseaseCover"/>
+        <NamedIndividual IRI="#addison&apos;s"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers"/>
+        <NamedIndividual IRI="#testplan"/>
+        <NamedIndividual IRI="#acnecare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers"/>
+        <NamedIndividual IRI="#testplan"/>
+        <NamedIndividual IRI="#asthma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers"/>
+        <NamedIndividual IRI="#testplan"/>
+        <NamedIndividual IRI="#addison&apos;s"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Plans"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Benefits"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
