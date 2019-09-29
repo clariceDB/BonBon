@@ -12,16 +12,16 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#AcneCover"/>
+        <Class IRI="#AcneTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AddisonsDiseaseCover"/>
+        <Class IRI="#AddisonsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AdditionalConditions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AsthmaCover"/>
+        <Class IRI="#AsthmaTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BackAndNeckCare"/>
@@ -30,10 +30,64 @@
         <Class IRI="#Benefits"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BipolarMoodDisorderTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BonComprehensive"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BronchiectasisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiacFailureTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiomyopathyTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ChronicBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChronicRenalDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrohnsDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiabetesInsipidusTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiabetesType1Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiabetesType2Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DysrhythmiasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpilepsyTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlaucomaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HaemophiliaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HyperlipidaemiaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HypertensionTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HypothyroidismTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#InHospitalBenefits"/>
@@ -46,6 +100,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ManagedCareBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multiple_SclerosisTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OutOfHospitalAcuteMedicine"/>
@@ -72,10 +129,28 @@
         <Class IRI="#OutOfHospitalSpecialistConsultations"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ParkinsonsDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Plans"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RheumatoidArthritisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SchizophreniaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemicLupusErythematosusTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UlcerativeColitisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HIV/AIDSTreatment"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#covers"/>
@@ -96,11 +171,11 @@
         <NamedIndividual IRI="#addison&apos;s"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#AcneCover"/>
+        <Class IRI="#AcneTreatment"/>
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AddisonsDiseaseCover"/>
+        <Class IRI="#AddisonsDiseaseTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
@@ -108,12 +183,16 @@
         <Class IRI="#ChronicBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AsthmaCover"/>
+        <Class IRI="#AsthmaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BackAndNeckCare"/>
         <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BipolarMoodDisorderTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BonComprehensive"/>
@@ -129,14 +208,14 @@
         <Class IRI="#BonComprehensive"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#covers"/>
-            <Class IRI="#AddisonsDiseaseCover"/>
+            <Class IRI="#AddisonsDiseaseTreatment"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BonComprehensive"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#covers"/>
-            <Class IRI="#AsthmaCover"/>
+            <Class IRI="#AsthmaTreatment"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -144,14 +223,82 @@
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#covers"/>
             <ObjectUnionOf>
-                <Class IRI="#AddisonsDiseaseCover"/>
-                <Class IRI="#AsthmaCover"/>
+                <Class IRI="#AddisonsDiseaseTreatment"/>
+                <Class IRI="#AsthmaTreatment"/>
             </ObjectUnionOf>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BronchiectasisTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiacFailureTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiomyopathyTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ChronicBenefits"/>
         <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrohnsDiseaseTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiabetesInsipidusTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiabetesType1Treatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiabetesType2Treatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DysrhythmiasTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpilepsyTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlaucomaTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HaemophiliaTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HyperlipidaemiaTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HypertensionTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HypothyroidismTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InHospitalBenefits"/>
@@ -170,6 +317,10 @@
         <Class IRI="#Benefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Multiple_SclerosisTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OutOfHospitalAcuteMedicine"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
@@ -202,19 +353,72 @@
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PrescribedMinimumBenefits"/>
         <Class IRI="#ChronicBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#RheumatoidArthritisTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SchizophreniaTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UlcerativeColitisTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HIV/AIDSTreatment"/>
+        <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#covers"/>
-            <Class IRI="#AcneCover"/>
+            <Class IRI="#AcneTreatment"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#BonComprehensive"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#AddisonsDiseaseCover"/>
-        <Class IRI="#AsthmaCover"/>
+        <Class IRI="#AddisonsDiseaseTreatment"/>
+        <Class IRI="#AsthmaTreatment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AddisonsDiseaseTreatment"/>
+        <Class IRI="#AsthmaTreatment"/>
+        <Class IRI="#BipolarMoodDisorderTreatment"/>
+        <Class IRI="#BronchiectasisTreatment"/>
+        <Class IRI="#CardiacFailureTreatment"/>
+        <Class IRI="#CardiomyopathyTreatment"/>
+        <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        <Class IRI="#CrohnsDiseaseTreatment"/>
+        <Class IRI="#DiabetesInsipidusTreatment"/>
+        <Class IRI="#DiabetesType1Treatment"/>
+        <Class IRI="#DiabetesType2Treatment"/>
+        <Class IRI="#DysrhythmiasTreatment"/>
+        <Class IRI="#EpilepsyTreatment"/>
+        <Class IRI="#GlaucomaTreatment"/>
+        <Class IRI="#HaemophiliaTreatment"/>
+        <Class IRI="#HyperlipidaemiaTreatment"/>
+        <Class IRI="#HypertensionTreatment"/>
+        <Class IRI="#HypothyroidismTreatment"/>
+        <Class IRI="#Multiple_SclerosisTreatment"/>
+        <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        <Class IRI="#RheumatoidArthritisTreatment"/>
+        <Class IRI="#SchizophreniaTreatment"/>
+        <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        <Class IRI="#UlcerativeColitisTreatment"/>
+        <Class IRI="#HIV/AIDSTreatment"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Benefits"/>
@@ -234,11 +438,11 @@
         <Class IRI="#OutOfHospitalSpecialistConsultations"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#AcneCover"/>
+        <Class IRI="#AcneTreatment"/>
         <NamedIndividual IRI="#acnecare"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#AsthmaCover"/>
+        <Class IRI="#AsthmaTreatment"/>
         <NamedIndividual IRI="#asthma"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -246,7 +450,7 @@
         <NamedIndividual IRI="#boncomp"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#AddisonsDiseaseCover"/>
+        <Class IRI="#AddisonsDiseaseTreatment"/>
         <NamedIndividual IRI="#addison&apos;s"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
