@@ -21,10 +21,31 @@
         <Class IRI="#AdditionalConditions"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AllergicRhinitisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlzheimersDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnkylosingSpondylitisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnorexiaNervosaTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AsthmaTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AttentionDeficitDisorderTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BackAndNeckCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BarrettsOesophagusTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehcetsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Benefits"/>
@@ -37,6 +58,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#BronchiectasisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BulimiaNervosaTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CardiacFailureTreatment"/>
@@ -60,6 +84,15 @@
         <Class IRI="#CrohnsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CysticFibrosisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DermatitisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DermatomyositisTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DiabetesInsipidusTreatment"/>
     </Declaration>
     <Declaration>
@@ -72,19 +105,37 @@
         <Class IRI="#DysrhythmiasTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EczemaTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#EpilepsyTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GlaucomaTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#GoutTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HaemophiliaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HuntingtonsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HyperlipidaemiaTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HypertensionTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HyperthyroidismTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HypothyroidismTreatment"/>
@@ -103,6 +154,21 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Multiple_SclerosisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MyaestheniaGravisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NarcolepsyTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuropathiesTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OsteoporosisTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OutOfHospitalAcuteMedicine"/>
@@ -129,13 +195,31 @@
         <Class IRI="#OutOfHospitalSpecialistConsultations"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PagetsDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PanicDisorderTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ParkinsonsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Plans"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PolyarteritisNodosaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsoriaticArthritisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RheumatoidArthritisTreatment"/>
@@ -147,7 +231,16 @@
         <Class IRI="#SystemicLupusErythematosusTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SystemicSclerosisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TourettesSyndromeTreatment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UlcerativeColitisTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HIV/AIDSTreatment"/>
@@ -183,12 +276,40 @@
         <Class IRI="#ChronicBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AllergicRhinitisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlzheimersDiseaseTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnkylosingSpondylitisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnorexiaNervosaTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AsthmaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AttentionDeficitDisorderTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BackAndNeckCare"/>
         <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BarrettsOesophagusTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehcetsDiseaseTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BipolarMoodDisorderTreatment"/>
@@ -233,6 +354,10 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BulimiaNervosaTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CardiacFailureTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
@@ -261,6 +386,18 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CysticFibrosisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DermatitisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DermatomyositisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DiabetesInsipidusTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
@@ -277,16 +414,36 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EczemaTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#EpilepsyTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GlaucomaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#GoutTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HaemophiliaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HuntingtonsDiseaseTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HyperlipidaemiaTreatment"/>
@@ -295,6 +452,10 @@
     <SubClassOf>
         <Class IRI="#HypertensionTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HyperthyroidismTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypothyroidismTreatment"/>
@@ -319,6 +480,26 @@
     <SubClassOf>
         <Class IRI="#Multiple_SclerosisTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyaestheniaGravisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NarcolepsyTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuropathiesTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OsteoporosisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OutOfHospitalAcuteMedicine"/>
@@ -353,12 +534,36 @@
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PagetsDiseaseTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanicDisorderTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ParkinsonsDiseaseTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PolyarteritisNodosaTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PrescribedMinimumBenefits"/>
         <Class IRI="#ChronicBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsoriaticArthritisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RheumatoidArthritisTreatment"/>
@@ -373,8 +578,20 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SystemicSclerosisTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TourettesSyndromeTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UlcerativeColitisTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
+        <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HIV/AIDSTreatment"/>
@@ -387,6 +604,40 @@
         </ObjectSomeValuesFrom>
         <Class IRI="#BonComprehensive"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AcneTreatment"/>
+        <Class IRI="#AllergicRhinitisTreatment"/>
+        <Class IRI="#AlzheimersDiseaseTreatment"/>
+        <Class IRI="#AnkylosingSpondylitisTreatment"/>
+        <Class IRI="#AnorexiaNervosaTreatment"/>
+        <Class IRI="#AttentionDeficitDisorderTreatment"/>
+        <Class IRI="#BarrettsOesophagusTreatment"/>
+        <Class IRI="#BehcetsDiseaseTreatment"/>
+        <Class IRI="#BulimiaNervosaTreatment"/>
+        <Class IRI="#CysticFibrosisTreatment"/>
+        <Class IRI="#DermatitisTreatment"/>
+        <Class IRI="#DermatomyositisTreatment"/>
+        <Class IRI="#EczemaTreatment"/>
+        <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+        <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
+        <Class IRI="#GoutTreatment"/>
+        <Class IRI="#HuntingtonsDiseaseTreatment"/>
+        <Class IRI="#HyperthyroidismTreatment"/>
+        <Class IRI="#MyaestheniaGravisTreatment"/>
+        <Class IRI="#NarcolepsyTreatment"/>
+        <Class IRI="#NeuropathiesTreatment"/>
+        <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+        <Class IRI="#OsteoporosisTreatment"/>
+        <Class IRI="#PagetsDiseaseTreatment"/>
+        <Class IRI="#PanicDisorderTreatment"/>
+        <Class IRI="#PolyarteritisNodosaTreatment"/>
+        <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+        <Class IRI="#PsoriaticArthritisTreatment"/>
+        <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
+        <Class IRI="#SystemicSclerosisTreatment"/>
+        <Class IRI="#TourettesSyndromeTreatment"/>
+        <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#AddisonsDiseaseTreatment"/>
         <Class IRI="#AsthmaTreatment"/>
