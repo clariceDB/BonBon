@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/19768257/ontologies/2019/8/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/19768257/ontologies/2019/8/untitled-ontology-3"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,6 +17,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#AddisonsDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdditionalBenefits"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AdditionalConditions"/>
@@ -33,13 +37,16 @@
         <Class IRI="#AnorexiaNervosaTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AnyGPFromNetworkBenefit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AsthmaTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AttentionDeficitDisorderTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BackAndNeckCare"/>
+        <Class IRI="#Babyline"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BarrettsOesophagusTreatment"/>
@@ -57,6 +64,9 @@
         <Class IRI="#BonComprehensive"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BoneDensityScreeningBenefit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BronchiectasisTreatment"/>
     </Declaration>
     <Declaration>
@@ -69,6 +79,9 @@
         <Class IRI="#CardiomyopathyTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ChildCare"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ChronicBenefits"/>
     </Declaration>
     <Declaration>
@@ -76,6 +89,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ChronicRenalDiseaseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CongenitalHypothyroidismScreening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contraceptives"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CoronaryArteryDiseaseTreatment"/>
@@ -111,6 +130,12 @@
         <Class IRI="#EpilepsyTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FluVaccineBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPConsultations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
     </Declaration>
     <Declaration>
@@ -124,6 +149,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#HaemophiliaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HearingScreening"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HuntingtonsDiseaseTreatment"/>
@@ -141,16 +169,109 @@
         <Class IRI="#HypothyroidismTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ImmunisationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunisations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#InHospitalBenefits"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InHospitalCancerTreatment"/>
+        <Class IRI="#InHospitalBloodTestsBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InHospitalOrganTransplants"/>
+        <Class IRI="#InHospitalCTScansBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalExternalProthesisBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalInternalNerveStimulatorsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalInternalProthesisBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalMRIScansBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalSpinalSugeryBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalTerminalCareBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalUltraSoundsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalX-raysBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternationalTravelBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LipogramBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBBackAndNeckCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBCancerCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBDiabetesManagementCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBHipAndKneeReplacementCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBMentalWellnessCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MammogramBenefit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ManagedCareBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaternityCare"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Multiple_SclerosisTreatment"/>
@@ -171,28 +292,58 @@
         <Class IRI="#OsteoporosisTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalAcuteMedicine"/>
+        <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OutOfHospitalBenefits"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalBloodTests"/>
+        <Class IRI="#OutOfHospitalBloodTestBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalGPConsultations"/>
+        <Class IRI="#OutOfHospitalCTScanBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
+        <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
+        <Class IRI="#OutOfHospitalHearingAidBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
+        <Class IRI="#OutOfHospitalMRIScanBenefit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+        <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalOptometryBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalX-rayBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaediatricianConsultations"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PagetsDiseaseTreatment"/>
@@ -201,10 +352,16 @@
         <Class IRI="#PanicDisorderTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PapSmearBenefit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ParkinsonsDiseaseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Plans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PneumococcalVaccineBenefit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PolyarteritisNodosaTreatment"/>
@@ -214,6 +371,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreventativeCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProstateScreeningAntigenTest"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PsoriaticArthritisTreatment"/>
@@ -228,6 +394,15 @@
         <Class IRI="#SchizophreniaTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardSelect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoolTestBenefit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SystemicLupusErythematosusTreatment"/>
     </Declaration>
     <Declaration>
@@ -240,22 +415,67 @@
         <Class IRI="#UlcerativeColitisTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#WellnessBenefits"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HIV/AIDSTreatment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCBHIV/AIDSCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coveredBy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#doesNotCover"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notCoveredBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InHospitalAlternativesToHospitalBenefit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCB_hip_and_knee_replacement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Standard"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#acnecare"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#anyGPBenefit"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#asthma"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#boncomp"/>
+        <NamedIndividual IRI="#bipolar_mood_dis_treatment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_standard"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#testplan"/>
@@ -270,6 +490,17 @@
     <SubClassOf>
         <Class IRI="#AddisonsDiseaseTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdditionalBenefits"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdditionalBenefits"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Standard"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AdditionalConditions"/>
@@ -292,6 +523,24 @@
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AnyGPFromNetworkBenefit"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnyGPFromNetworkBenefit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Standard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnyGPFromNetworkBenefit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Standard"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AsthmaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
@@ -300,8 +549,8 @@
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BackAndNeckCare"/>
-        <Class IRI="#ManagedCareBenefits"/>
+        <Class IRI="#Babyline"/>
+        <Class IRI="#ChildCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BarrettsOesophagusTreatment"/>
@@ -310,6 +559,20 @@
     <SubClassOf>
         <Class IRI="#BehcetsDiseaseTreatment"/>
         <Class IRI="#AdditionalConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benefits"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Plans"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benefits"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Plans"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BipolarMoodDisorderTreatment"/>
@@ -336,18 +599,733 @@
         <Class IRI="#BonComprehensive"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AllergicRhinitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AlzheimersDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnkylosingSpondylitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnorexiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
             <Class IRI="#AsthmaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AttentionDeficitDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Babyline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BarrettsOesophagusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BehcetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BipolarMoodDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BoneDensityScreeningBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BronchiectasisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BulimiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiacFailureTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiomyopathyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CongenitalHypothyroidismScreening"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Contraceptives"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CrohnsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CysticFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatomyositisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesInsipidusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType1Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType2Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DysrhythmiasTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EczemaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EpilepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GPConsultations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GlaucomaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GoutTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HaemophiliaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HearingScreening"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HuntingtonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperlipidaemiaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypertensionTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperthyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypothyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Immunisations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBloodTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCTScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalExternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMRIScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTerminalCareBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalX-raysBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InternationalTravelBenefits"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#LipogramBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBBackAndNeckCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBCancerCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBDiabetesManagementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBMentalWellnessCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MammogramBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MaternityCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Multiple_SclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MyaestheniaGravisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NarcolepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NeuropathiesTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OsteoporosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PaediatricianConsultations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PagetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PanicDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PapSmearBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PneumococcalVaccineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PolyarteritisNodosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ProstateScreeningAntigenTest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PsoriaticArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#RheumatoidArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SchizophreniaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#StoolTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicSclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#TourettesSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#UlcerativeColitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HIV/AIDSTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BonComprehensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHIV/AIDSCare"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BonComprehensive"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#covers"/>
-            <ObjectUnionOf>
-                <Class IRI="#AddisonsDiseaseTreatment"/>
-                <Class IRI="#AsthmaTreatment"/>
-            </ObjectUnionOf>
+            <Class IRI="#Benefits"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneDensityScreeningBenefit"/>
+        <Class IRI="#PreventativeCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BronchiectasisTreatment"/>
@@ -366,8 +1344,19 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ChildCare"/>
+        <Class IRI="#AdditionalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ChronicBenefits"/>
         <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChronicBenefits"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Standard"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
@@ -376,6 +1365,14 @@
     <SubClassOf>
         <Class IRI="#ChronicRenalDiseaseTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CongenitalHypothyroidismScreening"/>
+        <Class IRI="#ChildCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contraceptives"/>
+        <Class IRI="#AdditionalBenefits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryDiseaseTreatment"/>
@@ -422,6 +1419,14 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#FluVaccineBenefit"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPConsultations"/>
+        <Class IRI="#ChildCare"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
@@ -440,6 +1445,10 @@
     <SubClassOf>
         <Class IRI="#HaemophiliaTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HearingScreening"/>
+        <Class IRI="#ChildCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HuntingtonsDiseaseTreatment"/>
@@ -462,20 +1471,144 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ImmunisationBenefit"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunisations"/>
+        <Class IRI="#ChildCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#InHospitalBenefits"/>
         <Class IRI="#Benefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#InHospitalCancerTreatment"/>
+        <Class IRI="#InHospitalBloodTestsBenefit"/>
         <Class IRI="#InHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#InHospitalOrganTransplants"/>
+        <Class IRI="#InHospitalCTScansBenefit"/>
         <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalExternalProthesisBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalInternalNerveStimulatorsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalMRIScansBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalSpinalSugeryBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalTerminalCareBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalX-raysBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternationalTravelBenefits"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LipogramBenefit"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBBackAndNeckCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBCancerCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBDiabetesManagementCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBMentalWellnessCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MammogramBenefit"/>
+        <Class IRI="#PreventativeCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ManagedCareBenefits"/>
         <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaternityCare"/>
+        <Class IRI="#AdditionalBenefits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Multiple_SclerosisTreatment"/>
@@ -502,7 +1635,11 @@
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalAcuteMedicine"/>
+        <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
@@ -510,28 +1647,64 @@
         <Class IRI="#Benefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalBloodTests"/>
+        <Class IRI="#OutOfHospitalBloodTestBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalGPConsultations"/>
+        <Class IRI="#OutOfHospitalCTScanBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
+        <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
+        <Class IRI="#OutOfHospitalHearingAidBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
+        <Class IRI="#OutOfHospitalMRIScanBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+        <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
         <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalOptometryBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalX-rayBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaediatricianConsultations"/>
+        <Class IRI="#ChildCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PagetsDiseaseTreatment"/>
@@ -542,8 +1715,23 @@
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PapSmearBenefit"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ParkinsonsDiseaseTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plans"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Benefits"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PneumococcalVaccineBenefit"/>
+        <Class IRI="#PreventativeCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PolyarteritisNodosaTreatment"/>
@@ -556,6 +1744,494 @@
     <SubClassOf>
         <Class IRI="#PrescribedMinimumBenefits"/>
         <Class IRI="#ChronicBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreventativeCare"/>
+        <Class IRI="#AdditionalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <Class IRI="#Plans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AddisonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AsthmaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BipolarMoodDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BronchiectasisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiacFailureTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiomyopathyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CrohnsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesInsipidusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType1Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType2Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DysrhythmiasTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EpilepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GlaucomaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HaemophiliaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperlipidaemiaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypertensionTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypothyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBloodTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCTScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMRIScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTerminalCareBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBBackAndNeckCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBCancerCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBDiabetesManagementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBMentalWellnessCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Multiple_SclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBloodTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalCTScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalHearingAidBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMRIScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOptometryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalX-rayBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#RheumatoidArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SchizophreniaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#UlcerativeColitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HIV/AIDSTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHIV/AIDSCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#doesNotCover"/>
+            <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProstateScreeningAntigenTest"/>
+        <Class IRI="#PreventativeCare"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PsoriaticArthritisTreatment"/>
@@ -574,6 +2250,1544 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Standard"/>
+        <Class IRI="#Plans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AcneTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AddisonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AllergicRhinitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AlzheimersDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnkylosingSpondylitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnorexiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AsthmaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AttentionDeficitDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BarrettsOesophagusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BehcetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BipolarMoodDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BronchiectasisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BulimiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiacFailureTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiomyopathyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CrohnsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CysticFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatomyositisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesInsipidusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType1Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType2Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DysrhythmiasTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EczemaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EpilepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GlaucomaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GoutTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HaemophiliaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HuntingtonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperlipidaemiaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypertensionTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperthyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypothyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBenefits"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBloodTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCTScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalExternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalNerveStimulatorsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMRIScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpinalSugeryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTerminalCareBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalX-raysBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBBackAndNeckCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBCancerCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBDiabetesManagementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBMentalWellnessCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Multiple_SclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MyaestheniaGravisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NarcolepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NeuropathiesTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OsteoporosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBloodTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalCTScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalHearingAidBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMRIScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOptometryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalX-rayBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PagetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PanicDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PolyarteritisNodosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PsoriaticArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#RheumatoidArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SchizophreniaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicSclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#TourettesSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#UlcerativeColitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HIV/AIDSTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHIV/AIDSCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <Class IRI="#Plans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AcneTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AddisonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AllergicRhinitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AlzheimersDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnkylosingSpondylitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AnorexiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AsthmaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#AttentionDeficitDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BarrettsOesophagusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BehcetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BipolarMoodDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BronchiectasisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#BulimiaNervosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiacFailureTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CardiomyopathyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicObstructivePulmonaryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ChronicRenalDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CoronaryArteryDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CrohnsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#CysticFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DermatomyositisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesInsipidusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType1Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DiabetesType2Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#DysrhythmiasTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EczemaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#EpilepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GastroOesophagealRefluxDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GeneralisedAnxietyDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GlaucomaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#GoutTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HaemophiliaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HuntingtonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperlipidaemiaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypertensionTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HyperthyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HypothyroidismTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBenefits"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalBloodTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCTScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalExternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalNerveStimulatorsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMRIScansBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpinalSugeryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalTerminalCareBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalX-raysBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBBackAndNeckCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBCancerCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBDiabetesManagementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBMentalWellnessCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Multiple_SclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MyaestheniaGravisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NarcolepsyTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#NeuropathiesTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ObsessiveCompulsiveDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OsteoporosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalBloodTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalCTScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalHearingAidBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMRIScanBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOptometryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalX-rayBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PagetsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PanicDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ParkinsonsDiseaseTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PolyarteritisNodosaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PostTraumaticStressDisorderTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PsoriaticArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#PulmonaryInterstitialFibrosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#RheumatoidArthritisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SchizophreniaTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicLupusErythematosusTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#SystemicSclerosisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#TourettesSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#UlcerativeColitisTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#HIV/AIDSTreatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#MCBHIV/AIDSCare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardSelect"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoolTestBenefit"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SystemicLupusErythematosusTreatment"/>
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
@@ -590,6 +3804,10 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#WellnessBenefits"/>
+        <Class IRI="#PreventativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ZollingerEllisonSyndromeTreatment"/>
         <Class IRI="#AdditionalConditions"/>
     </SubClassOf>
@@ -598,11 +3816,65 @@
         <Class IRI="#PrescribedMinimumBenefits"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+        <Class IRI="#InHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MCBHIV/AIDSCare"/>
+        <Class IRI="#ManagedCareBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        <Class IRI="#OutOfHospitalBenefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <ObjectUnionOf>
+            <Class IRI="#Benefits"/>
+            <Class IRI="#Plans"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coveredBy"/>
+            <Class IRI="#Plans"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#covers"/>
-            <Class IRI="#AcneTreatment"/>
+            <Class IRI="#AnyGPFromNetworkBenefit"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Benefits"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Plans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#doesNotCover"/>
+            <Class IRI="#AnyGPFromNetworkBenefit"/>
+        </ObjectSomeValuesFrom>
+        <ObjectComplementOf>
+            <Class IRI="#Standard"/>
+        </ObjectComplementOf>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#AcneTreatment"/>
@@ -672,61 +3944,221 @@
         <Class IRI="#HIV/AIDSTreatment"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Benefits"/>
-        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#AdditionalBenefits"/>
+        <ObjectUnionOf>
+            <Class IRI="#ChronicBenefits"/>
+            <Class IRI="#InHospitalBenefits"/>
+            <Class IRI="#ManagedCareBenefits"/>
+            <Class IRI="#OutOfHospitalBenefits"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Babyline"/>
+        <Class IRI="#CongenitalHypothyroidismScreening"/>
+        <Class IRI="#GPConsultations"/>
+        <Class IRI="#HearingScreening"/>
+        <Class IRI="#Immunisations"/>
+        <Class IRI="#PaediatricianConsultations"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Benefits"/>
         <Class IRI="#Plans"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#OutOfHospitalAcuteMedicine"/>
-        <Class IRI="#OutOfHospitalBloodTests"/>
-        <Class IRI="#OutOfHospitalGPConsultations"/>
-        <Class IRI="#OutOfHospitalOtherLaboratoryTests"/>
-        <Class IRI="#OutOfHospitalOverTheCounterMedicine"/>
-        <Class IRI="#OutOfHospitalParamedical_AlliedMedicalProfessionals"/>
-        <Class IRI="#OutOfHospitalSpecialistConsultations"/>
+        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#Primary"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BonComprehensive"/>
+        <Class IRI="#StandardSelect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChildCare"/>
+        <Class IRI="#Contraceptives"/>
+        <Class IRI="#MaternityCare"/>
+        <Class IRI="#PreventativeCare"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChronicBenefits"/>
+        <ObjectUnionOf>
+            <Class IRI="#AdditionalBenefits"/>
+            <Class IRI="#InHospitalBenefits"/>
+            <Class IRI="#ManagedCareBenefits"/>
+            <Class IRI="#OutOfHospitalBenefits"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        <Class IRI="#InHospitalBloodTestsBenefit"/>
+        <Class IRI="#InHospitalCTScansBenefit"/>
+        <Class IRI="#InHospitalCancerTreatmentBenefit"/>
+        <Class IRI="#InHospitalCochlearImplantsBenefit"/>
+        <Class IRI="#InHospitalDeepBrainStimulationBenefit"/>
+        <Class IRI="#InHospitalExternalProthesisBenefit"/>
+        <Class IRI="#InHospitalInternalProthesisBenefit"/>
+        <Class IRI="#InHospitalKidneyDialysisBenefit"/>
+        <Class IRI="#InHospitalMRIScansBenefit"/>
+        <Class IRI="#InHospitalMentalHealthHospitalisationBenefit"/>
+        <Class IRI="#InHospitalNon-cancerSpecialisedDrugsBenefit"/>
+        <Class IRI="#InHospitalOrganTransplantsBenefit"/>
+        <Class IRI="#InHospitalOtherLaboratoryTestsBenefit"/>
+        <Class IRI="#InHospitalPhysicalRehabilitationBenefit"/>
+        <Class IRI="#InHospitalRefractiveEyeSurgeryBenefit"/>
+        <Class IRI="#InHospitalTake-homeMedicineBenefit"/>
+        <Class IRI="#InHospitalTerminalCareBenefit"/>
+        <Class IRI="#InHospitalUltraSoundsBenefit"/>
+        <Class IRI="#InHospitalX-raysBenefit"/>
+        <Class IRI="#InHospitalGPConsultations/TreatmentBenefit"/>
+        <Class IRI="#InHospitalHIV/AIDSBenefit"/>
+        <Class IRI="#InHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+        <Class IRI="#InHospitalSpecialistConsultations/TreatmentBenefit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InHospitalBenefits"/>
+        <ObjectUnionOf>
+            <Class IRI="#AdditionalBenefits"/>
+            <Class IRI="#ChronicBenefits"/>
+            <Class IRI="#ManagedCareBenefits"/>
+            <Class IRI="#OutOfHospitalBenefits"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MCBBackAndNeckCare"/>
+        <Class IRI="#MCBCancerCare"/>
+        <Class IRI="#MCBDiabetesManagementCare"/>
+        <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        <Class IRI="#MCBMentalWellnessCare"/>
+        <Class IRI="#MCBHIV/AIDSCare"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManagedCareBenefits"/>
+        <ObjectUnionOf>
+            <Class IRI="#AdditionalBenefits"/>
+            <Class IRI="#ChronicBenefits"/>
+            <Class IRI="#InHospitalBenefits"/>
+            <Class IRI="#OutOfHospitalBenefits"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OutOfHospitalAcuteMedicineBenefit"/>
+        <Class IRI="#OutOfHospitalBasicDentistryBenefit"/>
+        <Class IRI="#OutOfHospitalBloodTestBenefit"/>
+        <Class IRI="#OutOfHospitalCTScanBenefit"/>
+        <Class IRI="#OutOfHospitalGeneralMedicalApplicancesBenefit"/>
+        <Class IRI="#OutOfHospitalHearingAidBenefit"/>
+        <Class IRI="#OutOfHospitalMRIScanBenefit"/>
+        <Class IRI="#OutOfHospitalMaxillo-facialSurgeryAndOralPathologyBenefit"/>
+        <Class IRI="#OutOfHospitalMentalHealthConsultationBenefit"/>
+        <Class IRI="#OutOfHospitalOptometryBenefit"/>
+        <Class IRI="#OutOfHospitalOtherLaboratoryTestBenefit"/>
+        <Class IRI="#OutOfHospitalOver-the-counterMedicineBenefit"/>
+        <Class IRI="#OutOfHospitalSpecialisedDentistryBenefit"/>
+        <Class IRI="#OutOfHospitalSpecialistConsultationBenefit"/>
+        <Class IRI="#OutOfHospitalUltrasoundBenefit"/>
+        <Class IRI="#OutOfHospitalX-rayBenefit"/>
+        <Class IRI="#OutOfHospitalParamedical/AlliedMedicalProfessionalsBenefit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Primary"/>
+        <Class IRI="#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Primary"/>
+        <Class IRI="#StandardSelect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Standard"/>
+        <Class IRI="#StandardSelect"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#InHospitalAlternativesToHospitalBenefit"/>
+        <NamedIndividual IRI="#InHospitalAlternativesToHospitalBenefit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCBHipAndKneeReplacementCare"/>
+        <NamedIndividual IRI="#MCB_hip_and_knee_replacement"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AcneTreatment"/>
         <NamedIndividual IRI="#acnecare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnyGPFromNetworkBenefit"/>
+        <NamedIndividual IRI="#anyGPBenefit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AsthmaTreatment"/>
         <NamedIndividual IRI="#asthma"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#BonComprehensive"/>
-        <NamedIndividual IRI="#boncomp"/>
+        <Class IRI="#BipolarMoodDisorderTreatment"/>
+        <NamedIndividual IRI="#bipolar_mood_dis_treatment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#test_standard"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AddisonsDiseaseTreatment"/>
         <NamedIndividual IRI="#addison&apos;s"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#covers"/>
+        <ObjectProperty IRI="#doesNotCover"/>
         <NamedIndividual IRI="#testplan"/>
-        <NamedIndividual IRI="#acnecare"/>
+        <NamedIndividual IRI="#MCB_hip_and_knee_replacement"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#coveredBy"/>
         <ObjectProperty IRI="#covers"/>
-        <NamedIndividual IRI="#testplan"/>
-        <NamedIndividual IRI="#asthma"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#covers"/>
-        <NamedIndividual IRI="#testplan"/>
-        <NamedIndividual IRI="#addison&apos;s"/>
-    </ObjectPropertyAssertion>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#doesNotCover"/>
+        <ObjectProperty IRI="#notCoveredBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coveredBy"/>
+        <Class IRI="#Benefits"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#covers"/>
         <Class IRI="#Plans"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#doesNotCover"/>
+        <Class IRI="#Plans"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notCoveredBy"/>
+        <Class IRI="#Benefits"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coveredBy"/>
+        <Class IRI="#Plans"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#covers"/>
         <Class IRI="#Benefits"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#doesNotCover"/>
+        <Class IRI="#Benefits"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notCoveredBy"/>
+        <Class IRI="#Plans"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#coveredBy"/>
+        <ObjectProperty IRI="#notCoveredBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#covers"/>
+        <ObjectProperty IRI="#doesNotCover"/>
+    </DisjointObjectProperties>
 </Ontology>
 
 
